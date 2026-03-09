@@ -1,287 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Panda Store</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ 
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <<link rel="stylesheet" href="style.css">
 </head>
-<style>
+ <body>
+  <div class="container">
+<div class="header">
+ <div class="left-image-box">
+   <img src="./panda pic/main-logo.png" alt="web logo" />
+ </div>
+ <div class="right-image-box">
+   <img src="./panda pic/menu-bar.png"  alt="menu-bar" />
+ </div>
+</div><br><br><br>
+<div class="menu"> 
+ <div class="aside">
+   <h1>MI LED TV 4A PRO 32</h1>
+   <p><h2>amit minim mollit non desurant ullamco est sit aliqua dolor do amet sint.vellit officia consequat duis enim velit mollit.exercitation venium consequat sunt nostrud amet.</h2></p><br>
+   <h1 class="price">$1289</h1>
+   <button class="banner-button">Buy Now </button>
+ </div>
+ <div class="hits">
+   <img src="./panda pic/hero-tv.png" height="190px" width="190px" alt="tv" />
+ </div>
 
+  
+</div><br><br>
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Poppins', sans-serif;
-}
-
-body{
-  background:#f5f5f5;
-  padding:20px 60px;
-}
-
-/* Header */
-.header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:30px;
-}
-
-.logo{
-  font-weight:700;
-  font-size:22px;
-}
-
-.menu{
-  font-size:24px;
-  cursor:pointer;
-}
-
-/* Hero */
-.hero{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  background:#f8dede;
-  padding:40px;
-  border-radius:15px;
-  margin-bottom:40px;
-}
-
-.hero-text h1{
-  font-size:32px;
-  margin-bottom:15px;
-}
-
-.hero-text p{
-  margin-bottom:15px;
-  color:#555;
-}
-
-.hero-text h2{
-  color:#ff007f;
-  margin-bottom:15px;
-}
-
-.hero-text button{
-  background:#ff007f;
-  color:#fff;
-  border:none;
-  padding:10px 20px;
-  border-radius:5px;
-  cursor:pointer;
-}
-
-.hero-img img{
-  width:300px;
-}
-
-/* Categories */
-.categories h2{
-  margin-bottom:20px;
-}
-
-.category-box{
-  display:flex;
-  gap:20px;
-  margin-bottom:40px;
-}
-
-.cat{
-  flex:1;
-  padding:25px;
-  color:#fff;
-  font-weight:600;
-  text-align:center;
-  border-radius:10px;
-}
-
-.watch{background:orange;}
-.bag{background:#ff007f;}
-.shoes{background:blue;}
-
-/* Products */
-.products{
-  margin-bottom:50px;
-}
-
-.products h2{
-  margin-bottom:20px;
-}
-
-.product-container{
-  display:flex;
-  gap:20px;
-}
-
-.card{
-  background:#fff;
-  padding:20px;
-  border-radius:10px;
-  text-align:center;
-  box-shadow:0 4px 10px rgba(0,0,0,0.1);
-  flex:1;
-}
-
-.card img{
-  width:100%;
-  height:180px;
-  object-fit:contain;
-  margin-bottom:15px;
-}
-
-.card h3{
-  margin-bottom:10px;
-}
-
-.card p{
-  font-weight:600;
-  margin-bottom:10px;
-}
-
-.card button{
-  background:black;
-  color:#fff;
-  border:none;
-  padding:8px 18px;
-  border-radius:5px;
-  cursor:pointer;
-}
-
-/* Subscribe */
-.subscribe{
-  background:#f8dede;
-  padding:50px;
-  text-align:center;
-  border-radius:15px;
-}
-
-.subscribe h2{
-  margin-bottom:10px;
-}
-
-.subscribe p{
-  margin-bottom:20px;
-  color:#555;
-}
-
-.input-box{
-  display:flex;
-  justify-content:center;
-}
-
-.input-box input{
-  padding:10px;
-  width:300px;
-  border:none;
-  border-radius:5px 0 0 5px;
-}
-
-.input-box button{
-  padding:10px 20px;
-  border:none;
-  background:#ff007f;
-  color:#fff;
-  border-radius:0 5px 5px 0;
-  cursor:pointer;
-}
-</style>
-<body>
-
-  <!-- Header -->
-  <header class="header">
-    <div class="logo">🐼 PANDA</div>
-    <div class="menu">☰</div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Mi LED TV 4A PRO 32</h1>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-      <h2>$1289</h2>
-      <button>BUY NOW</button>
+<h1><b>Categories</b></h1><br><br>
+<div class="common">
+ <div class="watch"><h1><b>Watch</b></h1>
+<img src="./panda pic/category-watch.png" width="80px" height="80px" alt="cat-watch" />
+ </div>
+ <div class="bag"><h1><b>bag</b></h1>
+ <img src="./panda pic/category-bag.png" height="80px" width="80px" alt="cat-bag" />
+  </div>
+ <div class="shoes"><h1><b>shoes</b></h1>
+<img src="./panda pic/category-shoe.png" height="80px" width="80px" alt="cat-shoe" />
+ </div>
+</div><br><br><br><br>
+<h1><b>Shoes</b></h1><br>
+<div class="b">
+  <div class="c">
+    <div class="image">
+      <img src="./panda pic/shoe-1.png" height="150px" width="200px" alt="shoe-1" /><br><br>
+      <h1><b>Reebok Dart Man's Shoes</b></h1><br>
+      <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p>
+      <br>
+      <h1>$1289</h1>
+      <button class="shoe-btn">Buy Now ➡</button>
     </div>
-    <div class="hero-img">
-      <img src="https://i.imgur.com/8Km9tLL.png" alt="TV">
-    </div>
-  </section>
-
-  <!-- Categories -->
-  <section class="categories">
-    <h2>Categories</h2>
-    <div class="category-box">
-      <div class="cat watch">Watch</div>
-      <div class="cat bag">Bag</div>
-      <div class="cat shoes">Shoes</div>
-    </div>
-  </section>
-
-  <!-- Shoes Section -->
-  <section class="products">
-    <h2>Shoes</h2>
-    <div class="product-container">
-      <div class="card">
-        <img src="https://i.imgur.com/1GrakTl.jpg">
-        <h3>Reebok Dart Men’s Shoes</h3>
-        <p>$1289</p>
-        <button>BUY NOW</button>
-      </div>
-
-      <div class="card">
-        <img src="https://i.imgur.com/5tj6S7Ol.jpg">
-        <h3>Reebok Pump</h3>
-        <p>$799</p>
-        <button>BUY NOW</button>
-      </div>
-
-      <div class="card">
-        <img src="https://i.imgur.com/9qZ7YlZl.jpg">
-        <h3>Reebok All Terrain</h3>
-        <p>$699</p>
-        <button>BUY NOW</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Backpack Section -->
-  <section class="products">
-    <h2>Backpack</h2>
-    <div class="product-container">
-      <div class="card">
-        <img src="https://i.imgur.com/l49aYS3.jpg">
-        <h3>Ison Backpack</h3>
-        <p>$1289</p>
-        <button>BUY NOW</button>
-      </div>
-
-      <div class="card">
-        <img src="https://i.imgur.com/8zY3B1w.jpg">
-        <h3>Biaowang Backpack</h3>
-        <p>$799</p>
-        <button>BUY NOW</button>
-      </div>
-
-      <div class="card">
-        <img src="https://i.imgur.com/dRZ6Y5X.jpg">
-        <h3>Dxyizu WS54 Smart</h3>
-        <p>$699</p>
-        <button>BUY NOW</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Subscribe -->
-  <section class="subscribe">
-    <h2>LET'S STAY IN TOUCH</h2>
-    <p>Get updates on sales specials and more</p>
-    <div class="input-box">
-      <input type="email" placeholder="Enter your email">
-      <button>Send</button>
-    </div>
-  </section>
-
+  </div>
+ <div class="d">
+  <div class="image">
+    <img src="./panda pic/shoe-2.png" height="150px" width="200px" alt="shoe-2" /><br><br>
+    <h1><b>Reebok Pump<b></b></h1><br><br>
+    <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p><br><br>
+    
+    <h1>$799</h1>
+    <button class="shoe-btn">Buy Now ➡</button>
+  </div>
+ </div>
+ <div class="e">
+   <div class="image">
+    <img src="./panda pic/shoe-3.png" height="150px" width="200px" alt="shoe-3" /><br><br>
+    <h1><b>Reebok All Terrain</b></h1><br>
+    <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p><br>
+    
+    <h1>$699</h1>
+    <button class="shoe-btn">Buy Now ➡</button>
+ </div>
+</div>
+</div><br><br>
+<h1><b>Backpack</b></h1><br>
+<div class="f">
+ <div class="g">
+  <div class="image">
+    <img src="./panda pic/bag-1.png" height="150px" width="200px" alt="bag-1" /><br><br><br>
+    <h1><b>Ison Backpack</b></h1><br>
+    <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p>
+    <br><br>
+    <h1>$1289</h1>
+    <button class="bag-btn">Buy Now ➡</button>
+  </div>
+ </div>
+ <div class="h">
+  <div class="image">
+    <img src="./panda pic/bag-2.png" height="150px" width="200px" alt="bag-2" /><br><br><br>
+    <h1><b>Biaowang Backpack<b></b></h1>
+    <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p><br>
+    
+    <h1>$799</h1>
+    <button class="bag-btn">Buy Now ➡</button>
+  </div>
+ </div>
+ <div class="i">
+   <div class="image">
+    <img src="./panda pic/bag-3.png" height="150px" width="200px" alt="bag-3" /><br><br><br>
+    <h1><b>Dxyizu WS54 Smart</b></h1>
+    <p>amet minim mallit non deserant ullamco est sit aliqua dolor do amet sint</p>
+    <br>
+    <h1>$699</h1>
+    <button class="bag-btn">Buy Now ➡</button>
+ </div>
+</div>
+</div><br>
+<div class="santo">
+  <h1>LET'S STAY IN TOUCH</h1>
+  <p>Gets updates on sales specials and more</p>
+  
+ <form>
+   <input type="email" name="email" id="email" placeholder="Enter your email" />
+   <button class="btn-send">Send</button>
+   
+ </form>
+</div>
+<div>.</div>
+</div>
 </body>
 </html>
