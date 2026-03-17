@@ -28,6 +28,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  border-radius: 10px;
 }
 .price{
   color:deeppink;
@@ -38,6 +39,7 @@
   border: none ;
   width: 90px;
   height: 25px;
+  border-radius: 5px;
 }
 .hits{
   height: 180px;
@@ -79,6 +81,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
+  border-radius: 10px;
   
 }
 .bag{
@@ -90,6 +93,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
+  border-radius: 10px;
 }
 .shoes{
   height: 100%;
@@ -100,6 +104,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
+  border-radius: 10px;
   
 }
 .a{
@@ -116,23 +121,27 @@
   display: flex;
   justify-content: space-around;
   gap: 20px;
+  border-radius: 10px;
 }
 .c{
  
   height: 90%;
   width: 300px;
 border: solid;
+border-radius: 10px;
 }
 .d{
   
   height: 90%;
   width: 300px;
   border: solid;
+  border-radius: 10px;
 }
 .e{
   height:90%;
   width: 300px;
   border: solid;
+  border-radius: 10px;
 }
 .image{
   padding: 10px;
@@ -148,7 +157,8 @@ border: solid;
   padding: 10px 20px;
   border: none;
   text-align: center;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  border-radius:5px;
 }
 .f{
   
@@ -163,25 +173,28 @@ border: solid;
   height: 90%;
   width: 300px;
   border: solid;
+  border-radius: 10px;
 }
 .h{
   
 height: 90%;
 width: 300px;
 border: solid;
+border-radius: 10px;
 }
 .i{
  
   height: 90%;
   width: 300px;
   border: solid;
+  border-radius: 10px;
 }
 .bag-btn{
   background-color: black;
   color: white;
   padding: 10px 20px;
   margin-bottom: 20px;
-  border:none;
+  border-radius: 5px;
 }
 .santo{
   background-color: pink;
@@ -193,6 +206,7 @@ border: solid;
   align-items: center;
   padding: 100px 150px;
   margin:50px 0;
+  border-radius: 10px;
 }
 .santo h1{
   text-transform:uppercase;
@@ -214,4 +228,5 @@ border: solid;
   border: none;
   color: white;
   background-color: deeppink;
+  border-radius: 3px;
 }
